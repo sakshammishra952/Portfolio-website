@@ -7,14 +7,18 @@ body{
 }
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem ;
+    padding-left: 0rem  1rem;
+    
 }
 
 .container-center{
     max-width: 600px;
     margin: auto;
+    width:100%;
+    justify-content: center;
 }
+
+
 hr{
     margin: 2rem 0rem ;
 }
@@ -141,3 +145,22 @@ section h1{
     font-size: large;
 
 }
+@media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+  
+    .list-item-inline {
+      display: inline;
+      padding: 0rem;
+    }
+  
+    .container-center {
+      width: auto;
+    }
+  
+    .link-primary {
+      display: block;
+    }
+  }
